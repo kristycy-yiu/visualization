@@ -8,28 +8,57 @@
 - To test your evaluation skills, locate two public data visualizations online, one good and one bad  
     - You can find data visualizations at https://public.tableau.com/app/discover or https://datavizproject.com/, or anywhere else you like! 
 - For each visualization (good and bad):  
-    - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
-      ```
-      Your answer...
 
+Good data visualization: https://www.tableau.com/sites/default/files/2024-11/Superstore-Dashboard.png
 
+ - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
 
+Aesthetics
+- The visualization is visually appealing because it is well-aligned and has a limited two-tone colour palette. 
+- While there are multiple graphs, they tell a coherent story and are unified through consistent design elements. This aligns with the Gestalt principles of similarity - the line graphs are placed together at the top while the bar graphs are grouped beneath the line graphs.
 
+Substantive
+- The visualization is accurately and honestly representing the data. There is no apparent visual distortions.
 
+Perceptual
+- Even without the full dashboard title available, the intention is clear: it provides a multi-dimensional view of the company's sales performance by geography, customer, and product categories. 
+- The layout follows a logical reading order - top to bottom and left to right. The visual hierarchy draws attention to key performance indicators first then to detailed breakdowns.
 
+Cognitive Load
+- The dashboard effectively reduces cognitive load by combining complementary visual cues and numeric labels. For example, the inclusion of absolute numbers and percentage changes allows users to interpret trends without performing mental calculations.
 
-      ```
-    - How could this data visualization have been improved?  
-      ```
-      Your answer...
+How could this data visualization have been improved? 
+- Axes and labels: The line and bar graphs would benefit from having axes and labels. While it include overall change indicators (e.g., "overall sales increased by 20.4% compared to PY"), it limits the reader's ability to interpret the precise magnitude and pattern of change across data points. 
+- Abbreviations: Defining all abbreviations (e.g., PY) would promote clarity and ensure that readers can accurately interpret the data.
+- Sales by state: The dashboard could be improved by clarifying the sales by state visualization. The bubble map lacks a scale or legend, leaving the meaning of the bubble size unclarified. In addition, the absence of numeric labels makes it difficult to compare mid-performing states. Providing a legend could improve the interpretability.
 
+Bad data visualization: https://cdn.prod.website-files.com/64ccd6239abfeec743815b28/663b80b84951fd4b0f41f3e3_qu9vCjLZVBEs7aeq1emi2kydxt0tWg_rcGkV4H1DzkF_93SrtRld-mcZn5YvAqF1osJyMsv5YzjTemJWPanfUa0WjFEpjqyo4-KlQz6vpAFQHiE5tYmwuA3QWEY9ETrZJPfYkeRaIDBfwHugbJSXRH0.png
 
+- Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
 
+Aesthetics
+- The visualization is not aesthetically pleasing due to the excessive use of colours, which creates visual clutter. The overuse of colours diminishes readability of the chart. A more limited colour palette with clearer contrast would help direct attention toward key insights rather than create visual noise.
 
+Substantive
+- While the visualization appears to accurately and honestly present the data, and does not distort the proportions, it is difficult for the audience to interpret because understanding depends heavily on the colour legend. The reliance on colour-matching forces the reader to look back and forth between the chart and the legend - an example of split attention effect. 
+- Furthermore, the text accompanying the visualization lacks contextual specificity. It does not clarify whether the location of the national parks (the U.S.?) and whether the data includes all the national parks or a subset.
 
+Perceptual
+- The visualization partially conveys its intended message (multiple causes of death occur in national parks) but the key insights are difficult to discern.
+- The pie chart's thin slices and similar colour hues reduces the reader's abiltiy to differentiate perceptually and identify the top causes of death.
+- The visualization lacks accessbility for readers with colour vision deficiencies, further limiting interpretability.
 
-      
-      ```
+Cognitive Load
+- There is a high cognitive load for the reader. With numerous colours, small slices, and an external legend, the readers have to mentally integrate information from multiple sources to make sense of the data. This is an example of extraneous cognitive load as unnecessary design complexity burdens the working memory. In addition, the visualization functions as exploratory rather than explanatory, offering little guidance to help the reader understand its meaning.
+
+How could this data visualization have been improved?  
+- Use a bar graph: A bar graph instead of a pie chart would allow for more precise and immediate comparison of the cause of death categories.
+- If the author wants to retain in pie chart format:
+- Display the percentage labels directly beside each category in the legend or within slices to reduce reliance on colour matching.
+- Order the slices from highest to lowest proportion to establish a logical visual hierarchy..
+- Improve completeness and accessibility: Ensure the legend is fully visible and use colourblind-friendly palettes.
+- Clarify context: Specify which national parks are included.
+
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
